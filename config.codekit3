@@ -19,11 +19,38 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/bootstrap.min.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/bootstrap.min.css.map",
+		"oF": 0
+		},
 	"\/img\/portfolio.png": {
 		"ft": 32768,
 		"iS": 712282,
 		"oA": 0,
 		"oAP": "\/img\/portfolio.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/profile.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/profile.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -98,6 +125,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/bootstrap.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/bootstrap.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/jquery-3.2.1.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -106,12 +151,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/portfolio\/.gitattributes": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/portfolio\/.gitattributes",
-		"oF": 0
 		},
 	"\/portfolio\/randomquote\/css\/style-min.css": {
 		"aP": 1,
@@ -469,19 +508,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/0-base\/_resets.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/1-modules\/_about.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/1-modules\/_about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

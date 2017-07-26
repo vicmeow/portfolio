@@ -4,6 +4,9 @@ nav
   text-align: right
   z-index: 1030
   height: 60px
+  @media screen and (max-width: 768px)
+    text-align: center
+
 
   .container
     margin: 0 auto
@@ -11,16 +14,31 @@ nav
       padding-right: 10px
       padding-top: 10px
 .menu
+  padding-top: 35px
   padding-right: 15px
   padding-left: 15px
+  @media screen and (max-width: 768px)
+    padding-top: 0
 
 .menu a
   color: $green
   font-family: $body
   display: inline-block
   margin: 0 auto
-  padding: 18px 10px
-  font-size: 1em
+  padding: 5px 30px 0 5px
+  font-size: 1.2em
   font-weight: 100
   text-transform: lowercase
   letter-spacing: 3px
+  @media all and (max-width: 768px)
+    font-weight: 300
+    padding: 10px 10px
+
+a.hire
+  color: #fff
+  background: $green
+  border-radius: 25px
+  font-weight: 300
+  padding: 3px 25px 6px 27px
+  @media screen and (max-width: 768px)
+    padding: 0 22px 3px 24px
