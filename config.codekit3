@@ -521,6 +521,17 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/img\/blog.png": {
+		"ft": 32768,
+		"iS": 260510,
+		"oA": 0,
+		"oAP": "\/img\/blog.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio.png": {
 		"ft": 32768,
 		"iS": 712282,
@@ -697,6 +708,179 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio\/tributepage\/index.html",
+		"oF": 0
+		},
+	"\/portfolio\/weatherapp\/Project File\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/portfolio\/weatherapp\/Project File\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/clearnight.png": {
+		"ft": 32768,
+		"iS": 3748,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/clearnight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/cloudy.png": {
+		"ft": 32768,
+		"iS": 6901,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/cloudy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/cloudynight.png": {
+		"ft": 32768,
+		"iS": 9631,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/cloudynight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/fewclouds.png": {
+		"ft": 32768,
+		"iS": 10075,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/fewclouds.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/Rain.png": {
+		"ft": 32768,
+		"iS": 12924,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/Rain.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/snowy.png": {
+		"ft": 32768,
+		"iS": 9658,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/snowy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/sunny.png": {
+		"ft": 32768,
+		"iS": 9654,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/sunny.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/img\/thunderstorm.png": {
+		"ft": 32768,
+		"iS": 12156,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/img\/thunderstorm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/portfolio\/weatherapp\/Project File\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/index.html",
+		"oF": 0
+		},
+	"\/portfolio\/weatherapp\/Project File\/js\/index-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/js\/index-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/weatherapp\/Project File\/js\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/js\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/portfolio\/weatherapp\/Project File\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/license.txt",
+		"oF": 0
+		},
+	"\/portfolio\/weatherapp\/Project File\/README.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/README.txt",
+		"oF": 0
+		},
+	"\/portfolio\/weatherapp\/Project File\/sass\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/sass\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/portfolio\/weatherapp\/Project File\/sass\/style.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/portfolio\/weatherapp\/Project File\/sass\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/portfolio\/weatherapp\/Weather App.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio\/weatherapp\/Weather App.sketch",
 		"oF": 0
 		},
 	"\/portfolio\/zeroonedata\/css\/animate.min.css": {
