@@ -58,7 +58,7 @@ nav {
   padding-left: 15px; }
   @media screen and (max-width: 768px) {
     .menu {
-      padding-top: 0; } }
+      padding: 0; } }
 
 .menu a {
   color: #7d7d7d;
@@ -73,7 +73,7 @@ nav {
   @media all and (max-width: 768px) {
     .menu a {
       font-weight: 300;
-      padding: 10px 5px; } }
+      padding: 10px 3px; } }
 
 button {
   color: #fff;
@@ -90,17 +90,27 @@ header {
   position: relative; }
   @media all and (max-width: 768px) {
     header {
-      padding-top: 30px;
-      padding-bottom: 20px; } }
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+
+.profilepic {
+  border-radius: 50%; }
+  @media all and (max-width: 768px) {
+    .profilepic {
+      padding-bottom: 40px; } }
 
 h1.header {
   color: #7d7d7d;
   font-family: "Lato", sans-serif;
-  font-size: 3em;
+  font-size: 3.5em;
   letter-spacing: 5px;
   font-weight: 100;
   line-height: 1em;
-  text-align: left; }
+  text-align: left;
+  padding-top: 60px; }
+  @media all and (max-width: 768px) {
+    h1.header {
+      display: none; } }
 
 h2.header {
   color: #7d7d7d;
@@ -109,17 +119,24 @@ h2.header {
   font-weight: 100;
   text-align: left;
   letter-spacing: 3px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  letter-spacing: 0; }
   @media all and (max-width: 768px) {
     h2.header {
-      text-align: center;
-      font-size: 2.5em;
+      text-align: left;
+      font-size: 1.5em;
       padding-top: 20px;
-      font-weight: 100; } }
+      font-weight: 300; } }
+  h2.header span {
+    font-size: 1em;
+    color: pink; }
 
 /* CONTENT SECTION */
 #portfolio {
   padding-top: 60px; }
+  @media all and (max-width: 768px) {
+    #portfolio {
+      padding-top: 20px; } }
 
 .container-fluid {
   padding: 0 30px; }
@@ -165,6 +182,7 @@ img {
   padding-bottom: 100px; }
   @media all and (max-width: 768px) {
     #contact {
+      padding-top: 10px;
       padding-bottom: 20px; } }
 
 .about h1 {

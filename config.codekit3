@@ -521,17 +521,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/img\/blog.png": {
-		"ft": 32768,
-		"iS": 260510,
-		"oA": 0,
-		"oAP": "\/img\/blog.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/dailycss1.png": {
 		"ft": 32768,
 		"iS": 68858,
@@ -576,25 +565,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/dailycssimages.png": {
+	"\/img\/profile.png": {
 		"ft": 32768,
-		"iS": 111554,
+		"iS": 127592,
 		"oA": 0,
-		"oAP": "\/img\/dailycssimages.png",
+		"oAP": "\/img\/profile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/portfolio.png": {
-		"ft": 32768,
-		"iS": 712282,
-		"oA": 0,
-		"oAP": "\/img\/portfolio.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
