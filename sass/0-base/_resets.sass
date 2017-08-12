@@ -7,11 +7,11 @@
   box-sizing: border-box
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
-  color: $green
+  color: $black
   font-size: 18px
 
 h1, h2, h3, h4, h5, h6
-  font-family: $headers
+  font-family: $body
 
 body, html
   max-width: 100%
@@ -21,6 +21,8 @@ body, html
   font-family: $body
   color: $black
   font-weight: 100
+  @media screen and (max-width: 768px)
+    font-weight: 300
 
 a, a:hover, a:visited, a:focus
   color: $black

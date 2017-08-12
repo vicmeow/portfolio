@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300|Playfair+Display:100,400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300");
 /* KEYFRAMES */
 @keyframes fadein {
   0% {
@@ -14,11 +14,11 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  color: #9BB2B0;
+  color: #7d7d7d;
   font-size: 18px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif; }
+  font-family: "Lato", sans-serif; }
 
 body, html {
   max-width: 100%;
@@ -28,6 +28,9 @@ body, html {
   font-family: "Lato", sans-serif;
   color: #7d7d7d;
   font-weight: 100; }
+  @media screen and (max-width: 768px) {
+    body, html {
+      font-weight: 300; } }
 
 a, a:hover, a:visited, a:focus {
   color: #7d7d7d;
@@ -58,11 +61,11 @@ nav {
       padding-top: 0; } }
 
 .menu a {
-  color: #9BB2B0;
+  color: #7d7d7d;
   font-family: "Lato", sans-serif;
   display: inline-block;
   margin: 0 auto;
-  padding: 5px 30px 0 5px;
+  padding: 5px 0 0 15px;
   font-size: 1em;
   font-weight: 100;
   text-transform: lowercase;
@@ -70,24 +73,18 @@ nav {
   @media all and (max-width: 768px) {
     .menu a {
       font-weight: 300;
-      padding: 10px 10px; } }
+      padding: 10px 5px; } }
 
-.menu a:last-child {
-  padding-right: 0; }
-
-a.hire {
+button {
   color: #fff;
-  background: #9BB2B0;
-  border-radius: 25px;
   font-weight: 300;
-  padding: 3px 25px 6px 27px; }
-  @media screen and (max-width: 768px) {
-    a.hire {
-      padding: 0 22px 3px 24px; } }
+  padding: 2px 15px;
+  background: pink;
+  border: 0;
+  border-radius: 1em; }
 
 /* HEADER /* */
 header {
-  text-align: center;
   padding: 80px 0;
   margin: 0 auto;
   position: relative; }
@@ -96,38 +93,29 @@ header {
       padding-top: 30px;
       padding-bottom: 20px; } }
 
-h1 {
+h1.header {
   color: #7d7d7d;
   font-family: "Lato", sans-serif;
-  font-size: 5em;
+  font-size: 3em;
   letter-spacing: 5px;
   font-weight: 100;
   line-height: 1em;
   text-align: left; }
-  @media all and (max-width: 768px) {
-    h1 {
-      font-weight: 300;
-      font-size: 3.5em;
-      padding-left: 25px; } }
 
-h2 {
+h2.header {
   color: #7d7d7d;
   font-family: "Lato", sans-serif;
   font-size: 2em;
   font-weight: 100;
   text-align: left;
   letter-spacing: 3px;
-  padding-top: 30px; }
+  padding-top: 20px; }
   @media all and (max-width: 768px) {
-    h2 {
-      font-size: 1.2em;
+    h2.header {
+      text-align: center;
+      font-size: 2.5em;
       padding-top: 20px;
-      font-weight: 300;
-      padding-left: 25px; } }
-
-span .current {
-  color: #7d7d7d;
-  font-size: 1.5em; }
+      font-weight: 100; } }
 
 /* CONTENT SECTION */
 #portfolio {
@@ -145,71 +133,58 @@ span .current {
     .row {
       padding-bottom: 20px; } }
 
-.description {
-  width: 100%;
-  color: #7d7d7d;
-  font-size: 1em;
-  text-align: right;
-  letter-spacing: 3px;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 30px; }
-  @media all and (max-width: 768px) {
-    .description {
-      font-weight: 300; } }
-
 img {
+  float: left;
+  padding: 10px;
   width: 100%;
   margin: 0 auto; }
 
 .dailycss {
   float: left;
+  text-align: center;
   width: 50%;
-  padding: 0 15px; }
-  @media all and (max-width: 768px) {
-    .dailycss {
-      padding: 0 5px; } }
+  display: inline; }
+
+/* DESCRIPTIONS */
+.description {
+  padding: 30px; }
+  .description h3 {
+    color: #7d7d7d;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    text-align: right; }
+    @media all and (max-width: 768px) {
+      .description h3 {
+        font-size: 1.3em;
+        font-weight: 300; } }
 
 /* CONTACT SECTION */
 #contact {
-  background: #9BB2B0;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 100px; }
   @media all and (max-width: 768px) {
     #contact {
       padding-bottom: 20px; } }
 
-.contactme {
-  text-align: center;
-  padding: 25px; }
+.about h1 {
+  font-size: 3.5em;
+  font-weight: 100; }
   @media all and (max-width: 768px) {
-    .contactme {
-      padding: 0; } }
-  .contactme h4 {
-    color: #fff;
-    font-family: "Playfair Display", serif;
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: 5px;
-    font-style: italic; }
-    @media all and (max-width: 768px) {
-      .contactme h4 {
-        font-size: 2em;
-        letter-spacing: 2px; } }
-  @media all and (max-width: 768px) {
-    .contactme h5 {
-      padding-left: 15px; } }
-  .contactme h5 a {
-    color: #fff;
-    font-family: "Lato", sans-serif;
-    font-size: 4em;
-    font-weight: 100;
-    letter-spacing: 5px; }
-    @media all and (max-width: 768px) {
-      .contactme h5 a {
-        font-size: 2em;
-        font-weight: 100; } }
+    .about h1 {
+      font-size: 1.5em;
+      font-weight: 300;
+      letter-spacing: 0; } }
 
-.contact-item {
-  padding: 0 30px;
-  display: inline-block; }
+.about h2 {
+  font-size: 2em;
+  padding-top: 20px;
+  font-weight: 100; }
+  @media all and (max-width: 768px) {
+    .about h2 {
+      font-size: 1.5em;
+      font-weight: 300;
+      letter-spacing: 0; } }
+  .about h2 a {
+    font-size: 1em;
+    color: pink; }

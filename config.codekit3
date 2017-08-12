@@ -549,8 +549,8 @@
 		"oA": 0,
 		"oAP": "\/img\/dailycss2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -560,8 +560,8 @@
 		"oA": 0,
 		"oAP": "\/img\/dailycss3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -571,8 +571,8 @@
 		"oA": 0,
 		"oAP": "\/img\/dailycss4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1242,6 +1242,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/1-modules\/_content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/1-modules\/_description.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/1-modules\/_description.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
