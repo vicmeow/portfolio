@@ -532,6 +532,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/dailycss1.png": {
+		"ft": 32768,
+		"iS": 68858,
+		"oA": 0,
+		"oAP": "\/img\/dailycss1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/dailycss2.png": {
+		"ft": 32768,
+		"iS": 111278,
+		"oA": 0,
+		"oAP": "\/img\/dailycss2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/dailycss3.png": {
+		"ft": 32768,
+		"iS": 55773,
+		"oA": 0,
+		"oAP": "\/img\/dailycss3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/dailycss4.png": {
+		"ft": 32768,
+		"iS": 102863,
+		"oA": 0,
+		"oAP": "\/img\/dailycss4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/dailycssimages.png": {
+		"ft": 32768,
+		"iS": 111554,
+		"oA": 0,
+		"oAP": "\/img\/dailycssimages.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio.png": {
 		"ft": 32768,
 		"iS": 712282,
@@ -549,8 +604,8 @@
 		"oA": 0,
 		"oAP": "\/img\/randomquotes.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -876,12 +931,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/portfolio\/weatherapp\/Weather App.sketch": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/portfolio\/weatherapp\/Weather App.sketch",
-		"oF": 0
 		},
 	"\/portfolio\/zeroonedata\/css\/animate.min.css": {
 		"aP": 1,

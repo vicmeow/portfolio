@@ -29,12 +29,6 @@ body, html {
   color: #7d7d7d;
   font-weight: 100; }
 
-body {
-  border: 15px solid #9BB2B0; }
-  @media all and (max-width: 768px) {
-    body {
-      border: 2px solid #9BB2B0; } }
-
 a, a:hover, a:visited, a:focus {
   color: #7d7d7d;
   text-decoration: none; }
@@ -69,7 +63,7 @@ nav {
   display: inline-block;
   margin: 0 auto;
   padding: 5px 30px 0 5px;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 100;
   text-transform: lowercase;
   letter-spacing: 3px; }
@@ -77,6 +71,9 @@ nav {
     .menu a {
       font-weight: 300;
       padding: 10px 10px; } }
+
+.menu a:last-child {
+  padding-right: 0; }
 
 a.hire {
   color: #fff;
@@ -100,33 +97,37 @@ header {
       padding-bottom: 20px; } }
 
 h1 {
-  color: #9BB2B0;
-  font-family: "Playfair Display", serif;
-  font-size: 8em;
-  font-style: italic;
+  color: #7d7d7d;
+  font-family: "Lato", sans-serif;
+  font-size: 5em;
   letter-spacing: 5px;
-  font-weight: 700;
-  line-height: 1em; }
-  @media all and (max-width: 1025px) {
-    h1 {
-      font-size: 5em; } }
+  font-weight: 100;
+  line-height: 1em;
+  text-align: left; }
   @media all and (max-width: 768px) {
     h1 {
-      font-size: 3.5em; } }
+      font-weight: 300;
+      font-size: 3.5em;
+      padding-left: 25px; } }
 
 h2 {
-  color: #9BB2B0;
+  color: #7d7d7d;
   font-family: "Lato", sans-serif;
   font-size: 2em;
   font-weight: 100;
-  text-align: center;
+  text-align: left;
   letter-spacing: 3px;
-  padding-top: 55px; }
+  padding-top: 30px; }
   @media all and (max-width: 768px) {
     h2 {
       font-size: 1.2em;
       padding-top: 20px;
-      font-weight: 300; } }
+      font-weight: 300;
+      padding-left: 25px; } }
+
+span .current {
+  color: #7d7d7d;
+  font-size: 1.5em; }
 
 /* CONTENT SECTION */
 #portfolio {
@@ -145,8 +146,9 @@ h2 {
       padding-bottom: 20px; } }
 
 .description {
-  color: #9BB2B0;
-  font-size: 1.5em;
+  width: 100%;
+  color: #7d7d7d;
+  font-size: 1em;
   text-align: right;
   letter-spacing: 3px;
   width: 100%;
@@ -159,6 +161,14 @@ h2 {
 img {
   width: 100%;
   margin: 0 auto; }
+
+.dailycss {
+  float: left;
+  width: 50%;
+  padding: 0 15px; }
+  @media all and (max-width: 768px) {
+    .dailycss {
+      padding: 0 5px; } }
 
 /* CONTACT SECTION */
 #contact {
