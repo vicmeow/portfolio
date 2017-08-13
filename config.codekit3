@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/css\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -532,6 +538,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/dailycssimages.png": {
+		"ft": 32768,
+		"iS": 111554,
+		"oA": 0,
+		"oAP": "\/img\/dailycssimages.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio.png": {
 		"ft": 32768,
 		"iS": 712282,
@@ -876,12 +893,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/portfolio\/weatherapp\/Weather App.sketch": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/portfolio\/weatherapp\/Weather App.sketch",
-		"oF": 0
 		},
 	"\/portfolio\/zeroonedata\/css\/animate.min.css": {
 		"aP": 1,
