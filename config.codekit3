@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/css\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1198,19 +1204,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/1-modules\/_contact.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/1-modules\/_contact.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/1-modules\/_content.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1237,7 +1230,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/1-modules\/_header.sass": {
+	"\/sass\/1-modules\/_headercontact.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1245,7 +1238,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/1-modules\/_header.css",
+		"oAP": "\/sass\/1-modules\/_headercontact.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
