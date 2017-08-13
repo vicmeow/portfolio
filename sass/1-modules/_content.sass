@@ -2,6 +2,8 @@
 /* CONTENT SECTION */
 #portfolio
   padding-top: 60px
+  @media all and (max-width: 768px)
+    padding-top: 20px
 
 .container-fluid
   padding: 0 30px
@@ -13,17 +15,14 @@
   @media all and (max-width: 768px)
     padding-bottom: 20px
 
-.description
-  color: $green
-  font-size: 1.5em
-  text-align: right
-  letter-spacing: 3px
-  width: 100%
-  padding-top: 10px
-  padding-bottom: 30px
-  @media all and (max-width: 768px)
-    font-weight: 300
-
 img
+  float: left
+  padding: 10px
   width: 100%
   margin: 0 auto
+
+.dailycss
+  float: left
+  text-align: center
+  width: 50%
+  display: inline
