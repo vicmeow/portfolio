@@ -75,6 +75,7 @@ nav {
   letter-spacing: 3px; }
   @media all and (max-width: 768px) {
     .menu a {
+      font-size: 0.9em;
       padding: 10px 3px; } }
   .menu a:hover {
     border-bottom: 1px solid pink; }
@@ -100,7 +101,7 @@ header {
   position: relative; }
   @media all and (max-width: 768px) {
     header {
-      padding-top: 10px;
+      padding-top: 30px;
       padding-bottom: 10px; } }
 
 .home {
@@ -113,6 +114,10 @@ h1 {
   line-height: 1em;
   text-align: left;
   padding-bottom: 10px; }
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+      letter-spacing: 0; } }
   h1 span {
     font-size: 1em;
     color: pink; }
@@ -126,8 +131,7 @@ h2 {
   padding-top: 10px; }
   @media all and (max-width: 768px) {
     h2 {
-      text-align: left;
-      font-size: 1.5em;
+      font-size: 1.3em;
       padding-top: 20px;
       letter-spacing: 0; } }
   h2 a {
@@ -179,9 +183,9 @@ img {
   .description h3 {
     color: #7d7d7d;
     font-family: "Roboto", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 100;
     text-align: right; }
     @media all and (max-width: 768px) {
       .description h3 {
-        font-size: 1.3em; } }
+        font-size: 1em; } }
