@@ -22,18 +22,23 @@ nav
 
 .menu a
   color: $black
-  font-family: $body
   display: inline-block
-  margin: 0 auto
-  padding: 5px 0 0 15px
   font-size: 1em
+  font-family: $body
   font-weight: 100
+  margin: 0 auto
+  padding: 5px 10px 5px 10px
   text-transform: lowercase
   letter-spacing: 3px
   @media all and (max-width: 768px)
-    font-weight: 300
     padding: 10px 3px
-
+  &:hover
+    border-bottom: 1px solid pink
+  &:last-child
+    padding-right: 0
+  &:last-child:hover
+    border: 0
+    
 button
   color: #fff
   font-weight: 300

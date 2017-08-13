@@ -11,6 +11,7 @@
   font-size: 18px
 
 h1, h2, h3, h4, h5, h6
+  color: $black
   font-family: $body
 
 body, html
@@ -20,10 +21,13 @@ body, html
   font-size: 18px
   font-family: $body
   color: $black
-  font-weight: 100
-  @media screen and (max-width: 768px)
-    font-weight: 300
 
 a, a:hover, a:visited, a:focus
-  color: $black
+  color: pink
   text-decoration: none
+
+.container-fluid
+  max-width: 1400px
+
+.container
+  max-width: 1200px

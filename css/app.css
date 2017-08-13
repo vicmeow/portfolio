@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100, 300");
 /* KEYFRAMES */
 @keyframes fadein {
   0% {
@@ -18,23 +18,26 @@
   font-size: 18px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", sans-serif; }
+  color: #7d7d7d;
+  font-family: "Roboto", sans-serif; }
 
 body, html {
   max-width: 100%;
   min-height: 100%;
   margin: 0 auto;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
-  color: #7d7d7d;
-  font-weight: 100; }
-  @media screen and (max-width: 768px) {
-    body, html {
-      font-weight: 300; } }
+  font-family: "Roboto", sans-serif;
+  color: #7d7d7d; }
 
 a, a:hover, a:visited, a:focus {
-  color: #7d7d7d;
+  color: pink;
   text-decoration: none; }
+
+.container-fluid {
+  max-width: 1400px; }
+
+.container {
+  max-width: 1200px; }
 
 /* NAVIGATION */
 nav {
@@ -62,18 +65,23 @@ nav {
 
 .menu a {
   color: #7d7d7d;
-  font-family: "Lato", sans-serif;
   display: inline-block;
-  margin: 0 auto;
-  padding: 5px 0 0 15px;
   font-size: 1em;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
+  margin: 0 auto;
+  padding: 5px 10px 5px 10px;
   text-transform: lowercase;
   letter-spacing: 3px; }
   @media all and (max-width: 768px) {
     .menu a {
-      font-weight: 300;
       padding: 10px 3px; } }
+  .menu a:hover {
+    border-bottom: 1px solid pink; }
+  .menu a:last-child {
+    padding-right: 0; }
+  .menu a:last-child:hover {
+    border: 0; }
 
 button {
   color: #fff;
@@ -83,9 +91,11 @@ button {
   border: 0;
   border-radius: 1em; }
 
+/* HEADER & CONTACT SECTION */
 /* HEADER /* */
 header {
-  padding: 80px 0;
+  padding-top: 150px;
+  padding-bottom: 80px;
   margin: 0 auto;
   position: relative; }
   @media all and (max-width: 768px) {
@@ -93,43 +103,44 @@ header {
       padding-top: 10px;
       padding-bottom: 10px; } }
 
-.profilepic {
-  border-radius: 50%; }
-  @media all and (max-width: 768px) {
-    .profilepic {
-      padding-bottom: 40px; } }
+.home {
+  max-width: 1400px; }
 
-h1.header {
-  color: #7d7d7d;
-  font-family: "Lato", sans-serif;
-  font-size: 3.5em;
-  letter-spacing: 5px;
+h1 {
+  font-size: 2.5em;
   font-weight: 100;
+  letter-spacing: 1px;
   line-height: 1em;
   text-align: left;
-  padding-top: 60px; }
-  @media all and (max-width: 768px) {
-    h1.header {
-      display: none; } }
+  padding-bottom: 10px; }
+  h1 span {
+    font-size: 1em;
+    color: pink; }
 
-h2.header {
-  color: #7d7d7d;
-  font-family: "Lato", sans-serif;
-  font-size: 2em;
+h2 {
+  font-size: 1.5em;
   font-weight: 100;
   text-align: left;
-  letter-spacing: 3px;
-  padding-top: 20px;
-  letter-spacing: 0; }
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding-top: 10px; }
   @media all and (max-width: 768px) {
-    h2.header {
+    h2 {
       text-align: left;
       font-size: 1.5em;
       padding-top: 20px;
-      font-weight: 300; } }
-  h2.header span {
+      letter-spacing: 0; } }
+  h2 a {
     font-size: 1em;
     color: pink; }
+
+#contact {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  @media all and (max-width: 768px) {
+    #contact {
+      padding-top: 10px;
+      padding-bottom: 20px; } }
 
 /* CONTENT SECTION */
 #portfolio {
@@ -164,45 +175,13 @@ img {
 
 /* DESCRIPTIONS */
 .description {
-  padding: 30px; }
+  padding: 30px 10px; }
   .description h3 {
     color: #7d7d7d;
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
     font-weight: 100;
-    font-size: 1.5em;
     text-align: right; }
     @media all and (max-width: 768px) {
       .description h3 {
-        font-size: 1.3em;
-        font-weight: 300; } }
-
-/* CONTACT SECTION */
-#contact {
-  padding-top: 50px;
-  padding-bottom: 100px; }
-  @media all and (max-width: 768px) {
-    #contact {
-      padding-top: 10px;
-      padding-bottom: 20px; } }
-
-.about h1 {
-  font-size: 3.5em;
-  font-weight: 100; }
-  @media all and (max-width: 768px) {
-    .about h1 {
-      font-size: 1.5em;
-      font-weight: 300;
-      letter-spacing: 0; } }
-
-.about h2 {
-  font-size: 2em;
-  padding-top: 20px;
-  font-weight: 100; }
-  @media all and (max-width: 768px) {
-    .about h2 {
-      font-size: 1.5em;
-      font-weight: 300;
-      letter-spacing: 0; } }
-  .about h2 a {
-    font-size: 1em;
-    color: pink; }
+        font-size: 1.3em; } }
