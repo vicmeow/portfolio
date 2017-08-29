@@ -1,49 +1,32 @@
 /* NAVIGATION */
 nav
-  width: 100%
-  text-align: right
+  max-width: 1200px
+  display: flex
   z-index: 1030
-  height: 60px
+  margin: auto
+
+.nav
+  padding-top: 25px
+  padding-bottom: 10px
   @media screen and (max-width: 768px)
-    text-align: center
+    padding-top: 10px
 
 
-  .container
-    margin: 0 auto
-    @media screen and (max-width: 768px)
-      padding-right: 10px
-      padding-top: 10px
-.menu
-  padding-top: 35px
-  padding-right: 15px
-  padding-left: 15px
-  @media screen and (max-width: 768px)
-    padding: 0
-
-.menu a
+a.menu
   color: $black
   display: inline-block
-  font-size: 1em
+  font-size: 1rem
   font-family: $body
   font-weight: 100
   margin: 0 auto
-  padding: 5px 10px 5px 10px
+  padding: 0 2px
+  margin: 3px 10px 3px 10px
   text-transform: lowercase
   letter-spacing: 3px
   @media all and (max-width: 768px)
-    font-size: 0.9em
+    font-size: 0.9rem
     padding: 10px 3px
-  &:hover
-    border-bottom: 1px solid pink
   &:last-child
     padding-right: 0
   &:last-child:hover
     border: 0
-
-button
-  color: #fff
-  font-weight: 300
-  padding: 2px 15px
-  background: pink
-  border: 0
-  border-radius: 1em

@@ -8,11 +8,8 @@
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
   color: $black
-  font-size: 18px
-
-h1, h2, h3, h4, h5, h6
-  color: $black
   font-family: $body
+
 
 body, html
   max-width: 100%
@@ -21,13 +18,17 @@ body, html
   font-size: 18px
   font-family: $body
   color: $black
+  opacity: 0
+  animation: fade 1s linear 1s 1 forwards
 
-a, a:hover, a:visited, a:focus
-  color: pink
+a
+  color: $pink
   text-decoration: none
-
-.container-fluid
-  max-width: 1400px
+  &:hover
+    color: $pink
+    border-bottom: 1px solid $pink
+    text-decoration: none
 
 .container
   max-width: 1200px
+  margin: auto

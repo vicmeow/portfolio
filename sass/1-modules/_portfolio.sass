@@ -1,0 +1,70 @@
+
+/* PORTFOLIO SECTION */
+#portfolio
+  opacity: 0
+  animation: fade 2s linear 3s 1 forwards
+  padding-top: 60px
+  @media all and (max-width: 768px)
+    padding-top: 20px
+
+.dailycss
+  float: left
+  text-align: center
+  width: 50%
+  display: inline
+
+.grid
+  display: flex
+  flex-flow: row wrap
+  flex: 0 1 auto
+  align-items: flex-start
+  max-width: 1200px
+  margin: auto
+  padding: 0
+  padding-bottom: 15px
+
+.projects
+  width: 33.3%
+  padding: 15px
+  overflow: hidden
+  @media screen and (max-width: 768px)
+    width: 50%
+    padding: 10px
+  img
+    width: 100%
+
+.item
+  min-height: 33.3%
+  width: 33.3%
+  padding: 15px
+  overflow: hidden
+  @media screen and (max-width: 768px)
+    width: 50%
+  img
+    width: 100%
+
+.description
+  min-height: 100%
+  min-width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+  h3
+    display: inline-block
+    color: $black
+    font-size: 2rem
+    font-weight: 100
+    letter-spacing: 1px
+    margin: 140px 0
+    padding: 5px 0
+    text-align: center
+    @media screen and (max-width: 768px)
+      margin: 10px 0
+
+.title
+  @media screen and (max-width: 768px)
+    width: 100%
+
+.portfolio-item:hover
+  border: 0
