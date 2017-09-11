@@ -78,10 +78,7 @@ a.menu {
   padding-bottom: 100px; }
   @media all and (max-width: 768px) {
     #home {
-      padding-left: 25px;
-      padding-right: 25px;
-      padding-top: 80px;
-      padding-bottom: 30px; } }
+      padding: 0 20px; } }
 
 h1 {
   font-size: 2.3rem;
@@ -139,25 +136,15 @@ h2 {
   padding: 0;
   padding-bottom: 15px; }
 
-.projects {
-  width: 33.3%;
-  padding: 15px;
-  overflow: hidden; }
-  @media screen and (max-width: 768px) {
-    .projects {
-      width: 50%;
-      padding: 10px; } }
-  .projects img {
-    width: 100%; }
-
 .item {
   min-height: 33.3%;
   width: 33.3%;
-  padding: 15px;
+  padding: 0 15px 15px 15px;
   overflow: hidden; }
   @media screen and (max-width: 768px) {
     .item {
-      width: 50%; } }
+      width: 50%;
+      padding: 0 5px 5px 5px; } }
   .item img {
     width: 100%; }
 
@@ -180,9 +167,12 @@ h2 {
       .description h3 {
         margin: 10px 0; } }
 
-@media screen and (max-width: 768px) {
-  .title {
-    width: 100%; } }
+.title {
+  padding: 0; }
+  @media screen and (max-width: 768px) {
+    .title {
+      padding-bottom: 10px;
+      width: 100%; } }
 
 .portfolio-item:hover {
   border: 0; }
