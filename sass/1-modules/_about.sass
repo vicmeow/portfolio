@@ -2,15 +2,7 @@
 #about
   padding-top: 40px
   padding-bottom: 60px
-  animation: fade 2s linear 3s 1 forwards
-
-  .container
-    display: flex
-
-.about
-  flex: column wrap
-  max-width: 800px
-  padding: 25px
+  animation: fade 2s linear 1s 1 forwards
 
 h4
   font-size: 2rem
@@ -21,12 +13,20 @@ p
   font-weight: 100
   line-height: 1.5
   margin: 10px 0
+  a
+    font-weight: 300
+    &:hover
+      border-bottom: 0
 
 .social
   padding-top: 10px
   font-size: 1.7rem
+
   a .fa
     color: $pink
     font-size: 1.7rem
     vertical-align: baseline
     padding-right: 20px
+
+  a:hover
+    border-bottom: 0

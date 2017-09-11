@@ -1,13 +1,13 @@
 /* NAVIGATION */
 nav
-  max-width: 1200px
+  max-width: 100%
   display: flex
   z-index: 1030
   margin: auto
 
 .nav
   padding-top: 25px
-  padding-bottom: 10px
+  padding-bottom: 15px
   @media screen and (max-width: 768px)
     padding-top: 10px
 
@@ -19,14 +19,12 @@ a.menu
   font-family: $body
   font-weight: 100
   margin: 0 auto
-  padding: 0 2px
-  margin: 3px 10px 3px 10px
+  padding: 3px 10px 3px 10px
   text-transform: lowercase
-  letter-spacing: 3px
+  letter-spacing: 2px
+  border-bottom: 1px solid transparent
+  &:hover
+    border-bottom: 1px solid $pink
   @media all and (max-width: 768px)
     font-size: 0.9rem
     padding: 10px 3px
-  &:last-child
-    padding-right: 0
-  &:last-child:hover
-    border: 0

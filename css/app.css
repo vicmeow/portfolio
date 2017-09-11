@@ -25,30 +25,31 @@ body, html {
   font-family: "Roboto", sans-serif;
   color: #545454;
   opacity: 0;
-  animation: fade 1s linear 1s 1 forwards; }
+  animation: fade 2s linear 2s 1 forwards; }
 
 a {
-  color: #F2A7A7;
+  color: #faacac;
   text-decoration: none; }
   a:hover {
-    color: #F2A7A7;
-    border-bottom: 1px solid #F2A7A7;
+    color: #faacac;
+    border-bottom: 1px solid #faacac;
     text-decoration: none; }
 
 .container {
-  max-width: 1200px;
-  margin: auto; }
+  max-width: 850px;
+  flex-flow: column wrap;
+  padding: 25px; }
 
 /* NAVIGATION */
 nav {
-  max-width: 1200px;
+  max-width: 100%;
   display: flex;
   z-index: 1030;
   margin: auto; }
 
 .nav {
   padding-top: 25px;
-  padding-bottom: 10px; }
+  padding-bottom: 15px; }
   @media screen and (max-width: 768px) {
     .nav {
       padding-top: 10px; } }
@@ -60,29 +61,23 @@ a.menu {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   margin: 0 auto;
-  padding: 0 2px;
-  margin: 3px 10px 3px 10px;
+  padding: 3px 10px 3px 10px;
   text-transform: lowercase;
-  letter-spacing: 3px; }
+  letter-spacing: 2px;
+  border-bottom: 1px solid transparent; }
+  a.menu:hover {
+    border-bottom: 1px solid #faacac; }
   @media all and (max-width: 768px) {
     a.menu {
       font-size: 0.9rem;
       padding: 10px 3px; } }
-  a.menu:last-child {
-    padding-right: 0; }
-  a.menu:last-child:hover {
-    border: 0; }
 
-/* HEADER /* */
-header {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
+/* HOME /* */
+#home {
   padding-top: 150px;
   padding-bottom: 100px; }
   @media all and (max-width: 768px) {
-    header {
+    #home {
       padding-left: 25px;
       padding-right: 25px;
       padding-top: 80px;
@@ -100,7 +95,7 @@ h1 {
       font-size: 2em;
       letter-spacing: 0; } }
   h1 span {
-    color: #F2A7A7; }
+    color: #faacac; }
 
 h2 {
   font-size: 1.2rem;
@@ -114,13 +109,15 @@ h2 {
       letter-spacing: 0; } }
   h2 a {
     font-size: 1em;
-    color: #F2A7A7;
+    color: #faacac;
     font-weight: 300; }
+    h2 a:hover {
+      border-bottom: 0; }
 
 /* PORTFOLIO SECTION */
 #portfolio {
   opacity: 0;
-  animation: fade 2s linear 3s 1 forwards;
+  animation: fade 2s linear 1s 1 forwards;
   padding-top: 60px; }
   @media all and (max-width: 768px) {
     #portfolio {
@@ -137,7 +134,7 @@ h2 {
   flex-flow: row wrap;
   flex: 0 1 auto;
   align-items: flex-start;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   padding: 0;
   padding-bottom: 15px; }
@@ -194,14 +191,7 @@ h2 {
 #about {
   padding-top: 40px;
   padding-bottom: 60px;
-  animation: fade 2s linear 3s 1 forwards; }
-  #about .container {
-    display: flex; }
-
-.about {
-  flex: column wrap;
-  max-width: 800px;
-  padding: 25px; }
+  animation: fade 2s linear 1s 1 forwards; }
 
 h4 {
   font-size: 2rem;
@@ -212,21 +202,18 @@ p {
   font-weight: 100;
   line-height: 1.5;
   margin: 10px 0; }
+  p a {
+    font-weight: 300; }
+    p a:hover {
+      border-bottom: 0; }
 
 .social {
   padding-top: 10px;
   font-size: 1.7rem; }
   .social a .fa {
-    color: #F2A7A7;
+    color: #faacac;
     font-size: 1.7rem;
     vertical-align: baseline;
     padding-right: 20px; }
-
-/* CONTACT SECTION */
-#contact {
-  padding-top: 50px;
-  padding-bottom: 100px; }
-  @media all and (max-width: 768px) {
-    #contact {
-      padding-top: 10px;
-      padding-bottom: 20px; } }
+  .social a:hover {
+    border-bottom: 0; }
