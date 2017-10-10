@@ -1,21 +1,23 @@
 /* NAVIGATION */
 nav
-  max-width: 100%
+  position: fixed
+  width: 100%
   display: flex
   z-index: 1030
   margin: auto
+  background: #fff
 
 .nav
-  padding-top: 25px
+  padding-top: 15px
   padding-bottom: 15px
   @media screen and (max-width: 768px)
-    padding-top: 10px
+    padding-top: 2px
+    padding-bottom: 2px
 
 
 a.menu
-  color: $black
   display: inline-block
-  font-size: 1rem
+  font-size: 1.3rem
   font-family: $body
   font-weight: 100
   margin: 0 auto
@@ -24,7 +26,11 @@ a.menu
   letter-spacing: 2px
   border-bottom: 1px solid transparent
   &:hover
-    border-bottom: 1px solid $pink
+    border: 0
   @media all and (max-width: 768px)
-    font-size: 0.9rem
+    font-size: 1.5rem
     padding: 10px 3px
+
+  .fa
+    color: $pink
+    padding: 0 10px

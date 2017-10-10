@@ -25,7 +25,7 @@ body, html {
   font-family: "Roboto", sans-serif;
   color: #545454;
   opacity: 0;
-  animation: fade 2s linear 0 1 forwards; }
+  animation: fade 2s linear 0s 1 forwards; }
 
 a {
   color: #faacac;
@@ -42,22 +42,24 @@ a {
 
 /* NAVIGATION */
 nav {
-  max-width: 100%;
+  position: fixed;
+  width: 100%;
   display: flex;
   z-index: 1030;
-  margin: auto; }
+  margin: auto;
+  background: #fff; }
 
 .nav {
-  padding-top: 25px;
+  padding-top: 15px;
   padding-bottom: 15px; }
   @media screen and (max-width: 768px) {
     .nav {
-      padding-top: 10px; } }
+      padding-top: 2px;
+      padding-bottom: 2px; } }
 
 a.menu {
-  color: #545454;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   margin: 0 auto;
@@ -66,22 +68,26 @@ a.menu {
   letter-spacing: 2px;
   border-bottom: 1px solid transparent; }
   a.menu:hover {
-    border-bottom: 1px solid #faacac; }
+    border: 0; }
   @media all and (max-width: 768px) {
     a.menu {
-      font-size: 0.9rem;
+      font-size: 1.5rem;
       padding: 10px 3px; } }
+  a.menu .fa {
+    color: #faacac;
+    padding: 0 10px; }
 
 /* HOME /* */
 #home {
   padding-top: 150px;
-  padding-bottom: 100px; }
+  padding-bottom: 80px; }
   @media all and (max-width: 768px) {
     #home {
-      padding: 0 20px; } }
+      padding-top: 120px;
+      padding-bottom: 30px; } }
 
 h1 {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-weight: 100;
   letter-spacing: 3px;
   line-height: 1.5;
@@ -89,7 +95,7 @@ h1 {
   padding-bottom: 10px; }
   @media all and (max-width: 768px) {
     h1 {
-      font-size: 2em;
+      font-size: 2.2em;
       letter-spacing: 0; } }
   h1 span {
     color: #faacac; }
@@ -102,7 +108,7 @@ h2 {
   line-height: 1.5; }
   @media all and (max-width: 768px) {
     h2 {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       letter-spacing: 0; } }
   h2 a {
     font-size: 1em;
@@ -139,12 +145,12 @@ h2 {
 .item {
   min-height: 33.3%;
   width: 33.3%;
-  padding: 0 15px 15px 15px;
+  padding: 0 15px 15px 10px;
   overflow: hidden; }
   @media screen and (max-width: 768px) {
     .item {
-      width: 50%;
-      padding: 0 5px 5px 5px; } }
+      width: 100%;
+      padding: 20px; } }
   .item img {
     width: 100%; }
 
@@ -181,13 +187,21 @@ h2 {
 #about {
   padding-top: 40px;
   padding-bottom: 60px; }
+  @media screen and (max-width: 768px) {
+    #about {
+      padding-top: 10px;
+      padding-bottom: 40px; } }
 
 h4 {
   font-size: 2rem;
-  font-weight: 100; }
+  font-weight: 100;
+  letter-spacing: 3px;
+  line-height: 1.5; }
+  h4 span {
+    color: #faacac; }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 100;
   line-height: 1.5;
   margin: 10px 0; }
@@ -195,14 +209,3 @@ p {
     font-weight: 300; }
     p a:hover {
       border-bottom: 0; }
-
-.social {
-  padding-top: 10px;
-  font-size: 1.7rem; }
-  .social a .fa {
-    color: #faacac;
-    font-size: 1.7rem;
-    vertical-align: baseline;
-    padding-right: 20px; }
-  .social a:hover {
-    border-bottom: 0; }

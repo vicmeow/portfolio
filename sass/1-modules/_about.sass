@@ -2,13 +2,20 @@
 #about
   padding-top: 40px
   padding-bottom: 60px
+  @media screen and (max-width: 768px)
+    padding-top: 10px
+    padding-bottom: 40px
 
 h4
   font-size: 2rem
   font-weight: 100
+  letter-spacing: 3px
+  line-height: 1.5
+  span
+    color: $pink
 
 p
-  font-size: 1.1em
+  font-size: 1.2em
   font-weight: 100
   line-height: 1.5
   margin: 10px 0
@@ -16,16 +23,3 @@ p
     font-weight: 300
     &:hover
       border-bottom: 0
-
-.social
-  padding-top: 10px
-  font-size: 1.7rem
-
-  a .fa
-    color: $pink
-    font-size: 1.7rem
-    vertical-align: baseline
-    padding-right: 20px
-
-  a:hover
-    border-bottom: 0
